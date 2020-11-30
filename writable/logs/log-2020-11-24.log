@@ -1,0 +1,164 @@
+CRITICAL - 2020-11-24 01:38:12 --> syntax error, unexpected ')'
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-24 01:38:15 --> syntax error, unexpected ')'
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-24 01:38:17 --> syntax error, unexpected ')'
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-24 01:38:19 --> syntax error, unexpected ')'
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-24 01:50:11 --> Invalid file: menus.create_menu_route
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menus.create_me...')
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('menus.create_me...', Array, true)
+#2 D:\xampp\htdocs\artwork\app\Controllers\Home.php(73): view('menus.create_me...')
+#3 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->menuRoutes()
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 01:51:43 --> count(): Parameter must be an array or an object that implements Countable
+#0 D:\xampp\htdocs\artwork\app\Views\menus\create_menu_route.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'count(): Parame...', 'D:\\xampp\\htdocs...', 31, Array)
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('menus/create_me...', Array, true)
+#3 D:\xampp\htdocs\artwork\app\Controllers\Home.php(73): view('menus/create_me...')
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->menuRoutes()
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-24 01:52:32 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\artwork\app\Views\default_layout.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 57, Array)
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('default_layout', Array, true)
+#3 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('menus/create_me...', Array, true)
+#4 D:\xampp\htdocs\artwork\app\Controllers\Home.php(73): view('menus/create_me...')
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->menuRoutes()
+#6 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-24 01:56:43 --> Allowed fields must be specified for model: App\Models\RoutesModel
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Rout...')
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 D:\xampp\htdocs\artwork\app\Controllers\Home.php(83): CodeIgniter\Model->insert(Array)
+#3 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->menuRouteStore()
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 01:57:24 --> Allowed fields must be specified for model: App\Models\RoutesModel
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Rout...')
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 D:\xampp\htdocs\artwork\app\Controllers\Home.php(83): CodeIgniter\Model->insert(Array)
+#3 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->menuRouteStore()
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 02:19:43 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\artwork\app\Views\menus\menu_route_list.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 30, Array)
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('menus/menu_rout...', Array, true)
+#3 D:\xampp\htdocs\artwork\app\Controllers\Home.php(76): view('menus/menu_rout...', Array)
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->listMenuRoutes()
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-24 02:45:32 --> Too few arguments to function App\Controllers\Home::menuRoutesEdit(), 0 passed in D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->menuRoutesEdit()
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-24 02:45:52 --> Too few arguments to function App\Controllers\Home::menuRoutesEdit(), 0 passed in D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->menuRoutesEdit()
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-24 02:45:53 --> Too few arguments to function App\Controllers\Home::menuRoutesEdit(), 0 passed in D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->menuRoutesEdit()
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-24 02:46:31 --> Too few arguments to function App\Controllers\Home::menuRoutesEdit(), 0 passed in D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php on line 918 and exactly 1 expected
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->menuRoutesEdit()
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-24 03:00:18 --> syntax error, unexpected '$RoutesModel' (T_VARIABLE)
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(869): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(394): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-24 04:01:43 --> Cannot use object of type mysqli as array
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('menus/menu_rout...', Array, true)
+#2 D:\xampp\htdocs\artwork\app\Controllers\Home.php(128): view('menus/menu_rout...', Array)
+#3 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteMenuRoutes()
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 04:02:49 --> Cannot use object of type mysqli as array
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('menus/menu_rout...', Array, true)
+#2 D:\xampp\htdocs\artwork\app\Controllers\Home.php(128): view('menus/menu_rout...', Array)
+#3 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->deleteMenuRoutes()
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-24 05:26:47 --> Cannot redeclare App\Controllers\Home::menuStore()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-24 05:45:46 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\artwork\app\Views\default_layout.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 59, Array)
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('default_layout', Array, true)
+#3 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('menus/add_group...', Array, true)
+#4 D:\xampp\htdocs\artwork\app\Controllers\Home.php(172): view('menus/add_group...')
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(918): App\Controllers\Home->add_groups()
+#6 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

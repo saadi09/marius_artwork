@@ -1,0 +1,285 @@
+CRITICAL - 2020-11-30 04:19:57 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\ArtWorks->ajaxLoadData()
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtWorks))
+#2 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 04:20:05 --> Object of class stdClass could not be converted to string
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\ArtWorks->ajaxLoadData()
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtWorks))
+#2 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 04:20:56 --> array_merge(): Expected parameter 3 to be an array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_merge(): ...', 'D:\\xampp\\htdocs...', 110, Array)
+#1 D:\xampp\htdocs\artwork\app\Controllers\ArtWorks.php(110): array_merge(Array, Array, Object(stdClass))
+#2 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\ArtWorks->ajaxLoadData()
+#3 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtWorks))
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-11-30 04:21:21 --> syntax error, unexpected ';', expecting ')'
+#0 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(870): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\artwork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\artwork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 07:04:03 --> Invalid file: front_end/layout/slider_area.php
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front_end/layou...')
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('front_end/layou...', Array, true)
+#2 D:\xampp\htdocs\artWork\app\Controllers\FrontControll.php(17): view('front_end/layou...')
+#3 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\FrontControll->index()
+#4 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FrontControll))
+#5 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\artWork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-30 08:00:48 --> App\Controllers\ArtWorks::send_mail(): Failed opening required 'D:\xampp\htdocs\artWork\app\third_party/PHPMailer-master/PHPMailerAutoload.php' (include_path='D:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 08:06:20 --> App\Controllers\ArtWorks::send_mail(): Failed opening required 'D:\xampp\htdocs\artWork\app\third_party/PHPMailer-master/PHPMailerAutoload.php' (include_path='D:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 08:46:23 --> Call to private method phpmailer::sendMail() from context 'App\Controllers\ArtWorks'
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\ArtWorks->update()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtWorks))
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:47:56 --> Call to private method phpmailer::sendMail() from context 'App\Controllers\ArtWorks'
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\ArtWorks->update()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtWorks))
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:52:15 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:52:43 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:53:26 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:53:55 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:54:59 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:55:30 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:56:35 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:57:15 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:57:16 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:57:42 --> require(src/Exception.php): failed to open stream: No such file or directory
+#0 D:\xampp\htdocs\artWork\app\ThirdParty\phpmailer.class.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(src/Exc...', 'D:\\xampp\\htdocs...', 10, Array)
+#1 D:\xampp\htdocs\artWork\app\ThirdParty\phpmailer.class.php(10): require()
+#2 D:\xampp\htdocs\artWork\app\Controllers\ArtWorks.php(193): phpmailer::sendMail('jqsystech@gmail...')
+#3 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\ArtWorks->update()
+#4 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtWorks))
+#5 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-30 08:58:14 --> Call to undefined method phpmailer::isSMTP()
+#0 D:\xampp\htdocs\artWork\app\Controllers\ArtWorks.php(193): phpmailer::sendMail('jqsystech@gmail...')
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\ArtWorks->update()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtWorks))
+#3 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-30 08:58:32 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:58:58 --> Trait 'PHPMailer\PHPMailer\PHPMailer' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 08:59:05 --> syntax error, unexpected 'use' (T_USE)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 08:59:46 --> Call to undefined method phpmailer::isSMTP()
+#0 D:\xampp\htdocs\artWork\app\Controllers\ArtWorks.php(193): phpmailer::sendMail('jqsystech@gmail...')
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\ArtWorks->update()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtWorks))
+#3 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-30 09:18:42 --> syntax error, unexpected 'require_once' (T_REQUIRE_ONCE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(891): App\Controllers\ArtWorks->__construct()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->createController()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-11-30 09:19:19 --> Cannot declare class PHPMailer, because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 09:23:30 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 09:23:30 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 09:23:30 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 09:26:44 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 09:26:45 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 09:29:30 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 09:29:30 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 09:29:30 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 09:29:30 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 09:29:30 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 10:34:46 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 10:41:02 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-11-30 10:50:54 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(870): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 10:51:11 --> Argument 2 passed to view() must be of the type array, null given, called in D:\xampp\htdocs\artWork\app\Controllers\ArtWorks.php on line 194
+#0 D:\xampp\htdocs\artWork\app\Controllers\ArtWorks.php(194): view('art_works/email...', NULL, true)
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\ArtWorks->update()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtWorks))
+#3 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-30 10:51:38 --> syntax error, unexpected 'return' (T_RETURN)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(870): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 10:52:09 --> syntax error, unexpected 'return' (T_RETURN)
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('D:\\xampp\\htdocs...')
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(870): class_exists('\\App\\Controller...', true)
+#5 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->startController()
+#6 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-11-30 10:55:50 --> Argument 2 passed to view() must be of the type array, null given, called in D:\xampp\htdocs\artWork\app\Controllers\ArtWorks.php on line 194
+#0 D:\xampp\htdocs\artWork\app\Controllers\ArtWorks.php(194): view('art_works/email...', NULL, true)
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\ArtWorks->update()
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ArtWorks))
+#3 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-11-30 11:53:25 --> Invalid argument supplied for foreach()
+#0 D:\xampp\htdocs\artWork\app\Views\default_layout.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\xampp\\htdocs...', 93, Array)
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\xampp\\htdocs...')
+#2 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\View\View.php(257): CodeIgniter\View\View->render('default_layout', Array, true)
+#3 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('home', Array, true)
+#4 D:\xampp\htdocs\artWork\app\Controllers\Home.php(42): view('home')
+#5 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Home->index()
+#6 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\artWork\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-11-30 12:04:15 --> Invalid file: front.php
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front.php')
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('front', Array, true)
+#2 D:\xampp\htdocs\artWork\app\Controllers\Users.php(105): view('front')
+#3 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Users->logout()
+#4 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\artWork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-30 12:05:27 --> Call to undefined function set_value()
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 D:\xampp\htdocs\artWork\app\Controllers\Users.php(105): view('login')
+#3 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Users->logout()
+#4 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\artWork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-30 12:05:29 --> Call to undefined function set_value()
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 D:\xampp\htdocs\artWork\app\Controllers\Users.php(105): view('login')
+#3 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Users->logout()
+#4 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\artWork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-11-30 12:05:30 --> Call to undefined function set_value()
+#0 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\View\View.php(246): include()
+#1 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\Common.php(1119): CodeIgniter\View\View->render('login', Array, true)
+#2 D:\xampp\htdocs\artWork\app\Controllers\Users.php(105): view('login')
+#3 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(919): App\Controllers\Users->logout()
+#4 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(405): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Users))
+#5 D:\xampp\htdocs\artWork\vendor\codeigniter4\framework\system\CodeIgniter.php(313): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\xampp\htdocs\artWork\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
